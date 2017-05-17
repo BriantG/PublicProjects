@@ -27,10 +27,14 @@ public class HelloWorldDemo {
   String prompt = "";
   
   
-  keyboard = new Scanner(System.in);
   
-  prompt = "Please enter your name";
-  line = keyboard.nextLine();
+      keyboard = new Scanner(System.in);
+  
+      prompt = "Please enter your name";
+
+      System.out.println(prompt);
+      
+      line = keyboard.nextLine();
     
   test = new HelloWorld(line);
 
