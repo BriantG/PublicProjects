@@ -23,10 +23,13 @@ public class HelloWorldDemo {
   Scanner keyboard = null;
 
   String line = "";
-
+   
+  String prompt = "";
+  
   
   keyboard = new Scanner(System.in);
   
+  prompt = "Please enter your name";
   line = keyboard.nextLine();
     
   test = new HelloWorld(line);
